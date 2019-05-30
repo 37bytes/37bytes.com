@@ -177,12 +177,12 @@ ul, ol {
 
 .section-header {
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
-.section-header.small-margin {
+/*.section-header.small-margin {
     margin-bottom: 30px;
-}
+}*/
 
 .section-header .title {
     text-transform: capitalize;
@@ -194,7 +194,7 @@ ul, ol {
     height: 4px;
     width: 40px;
     background-color: #6195FF;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .text-center .title:after {
