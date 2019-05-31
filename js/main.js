@@ -22,6 +22,15 @@
 		$('html, body').animate({
 			scrollTop: $(this.hash).offset().top
 		}, 600);
+		$('#nav').removeClass('open');
+	});
+
+	$("#details").on('click', function(e) {
+		e.preventDefault();
+		var hash = this.hash;
+		$('html, body').animate({
+			scrollTop: $(this.hash).offset().top
+		}, 600);
 	});
 
 	$('#back-to-top').on('click', function(){
@@ -74,11 +83,12 @@
 		animateOut: 'fadeOut'
 	});
 
-	$('#testimonial-slider').owlCarousel({
-		loop:true,
+	$('#feedback-slider').owlCarousel({
+		// loop:true,
 		margin:15,
 		dots : true,
-		nav: false,
+		nav: true,
+		navText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 		autoplay : true,
 		responsive:{
 			0: {
