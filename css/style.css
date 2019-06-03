@@ -843,7 +843,47 @@ header {
     opacity: 1;
 }
 
+.work .work-content .logo {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    opacity: 0;
+    color: #FFF;
+    /*margin-bottom: 10px;*/
+    margin-bottom: 10px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    height: 50px;
+    object-fit: contain;
+}
 
+.work:hover .work-content .logo {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.logo.hh {
+    width: 50px;
+}
+
+.logo.sarafan {
+    width: 60px;
+    height: 60px;
+}
+
+.logo.vingrid {
+    width: 150px;
+}
+
+.logo.metro {
+    width: 150px;
+}
 /*------------------------------------*\
 	Services
 \*------------------------------------*/
