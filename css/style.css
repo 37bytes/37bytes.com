@@ -1692,6 +1692,15 @@ header {
     .blog-comments .media .media {
         margin: 0px -15px;
     }
+
+    .bg-img {
+        background-size: cover;
+        background: 50% 50% fixed;
+    }
+
+    .bg-img.bg_1 {
+        background: 30% 10% fixed;
+    }
 }
 
 
