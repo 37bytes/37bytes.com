@@ -21,7 +21,7 @@
 		var hash = this.hash;
 		$('html, body').animate({
 			scrollTop: $(this.hash).offset().top
-		}, 600);
+		}, 1000);
 		$('#nav').removeClass('open');
 	});
 
@@ -30,7 +30,7 @@
 		var hash = this.hash;
 		$('html, body').animate({
 			scrollTop: $(this.hash).offset().top
-		}, 600);
+		}, 1000);
 	});
 
 	$(".scroll-to-contacts").on('click', function(e) {
@@ -38,13 +38,13 @@
 		var hash = this.hash;
 		$('html, body').animate({
 			scrollTop: $(this.hash).offset().top
-		}, 600);
+		}, 1000);
 	});
 
 	$('#back-to-top').on('click', function(){
 		$('body,html').animate({
 			scrollTop: 0
-		}, 600);
+		}, 1000);
 	});
 
 	///////////////////////////

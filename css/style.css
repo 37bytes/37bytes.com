@@ -884,6 +884,7 @@ header {
 .logo.metro {
     width: 150px;
 }
+
 /*------------------------------------*\
 	Services
 \*------------------------------------*/
@@ -1596,6 +1597,48 @@ header {
 
 .contact-form .input:nth-child(2) {
     margin-left: 15px;
+}
+
+.contact .social-link {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact .social-link li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 13px;
+}
+
+.contact .social-link li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #6195FF;
+    color: #fff;
+}
+
+.contact .social-link i {
+    color: #fff;
+    margin-right: 0;
+    font-size: 32px;
+}
+
+.icon-viber {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
 }
 
 /*------------------------------------*\
